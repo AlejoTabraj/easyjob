@@ -1,0 +1,25 @@
+$wigenda-pat: '../../fonts/Wigenda';
+
+@font-face {
+    src: url($wigenda-pat + '.ttf') format("ttf");
+    font-family: 'Wigenda';
+    font-weight: 100;
+}
+
+@font-face {
+    src: url($wigenda-pat + '-SemiBold.ttf') format("ttf");
+    font-family: 'Wigenda';
+    font-weight: 500;
+}
+
+@font-face {
+    src: url($wigenda-pat + '-Heavy.ttf') format("ttf");
+    font-family: 'Wigenda';
+    font-weight: 700;
+}
+
+@font-face {
+    src: url($wigenda-pat + '-Bold.ttf') format("ttf");
+    font-family: 'Wigenda';
+    font-weight: 900;
+}
