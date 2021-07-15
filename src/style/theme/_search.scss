@@ -1,0 +1,8 @@
+.search {
+    border: 1px solid red;
+    @include border-style;
+    display: flex;
+    justify-content: center;
+    background-color: $secondary-color;
+    padding: .1rem;
+}

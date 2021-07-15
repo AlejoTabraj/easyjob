@@ -5,7 +5,7 @@ export const Title = () => {
     return (
         <EichOne
         classes={'title'}
-        text={'Finding jod \n easy'}
+        text={'Finding job \neasy'}
         />
             )
 }

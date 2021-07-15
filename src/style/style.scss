@@ -1,7 +1,18 @@
 @import 'base/base';
 @import 'base/initials';
 
-
+//mixins
+@import 'mixins/fonts';
+@import 'mixins/elements';
 //theme
 @import 'theme/avatar';
 @import 'theme/title';
+@import 'theme/header';
+@import 'theme/search';
+@import 'theme/button';
+@import 'theme/input';
+@import 'theme/subtitle';
+@import 'theme/tags';
+//modules
+@import 'modules/recentJobs';
+@import 'modules/jobCard';

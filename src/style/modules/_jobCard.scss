@@ -1,0 +1,19 @@
+.job-card{
+    @include border-style;
+    display: flex;
+    background-color: $secondary-color;
+    min-width: fit-content;
+    padding: 1rem;
+    
+}
+
+.job-card__image {
+    padding: .2rem .2rem 1rem .2rem;
+}
+.tags-section {
+    display: flex;
+}
+
+section .card-description {
+    margin-left: .4rem;
+}

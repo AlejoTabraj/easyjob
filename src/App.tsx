@@ -1,12 +1,12 @@
-import { PerfilAvatar } from './components/Molecules/PerfilAvatar';
-import { Title } from './components/Molecules/Title';
-import './style/style.scss';
+import { Header } from "./components/Organisms/Header";
+import { RecentJobs } from "./components/Organisms/RecentJobs";
+import "./style/style.scss";
 
 function App() {
   return (
     <main className="App">
-      <Title></Title>
-      <PerfilAvatar href={'#'}/>
+      <Header />
+      <RecentJobs />
     </main>
   );
 }
