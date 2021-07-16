@@ -1,33 +1,33 @@
 import React from "react";
-import { Anchor } from "../Atoms/Anchor";
 import { AiFillHome } from "react-icons/ai";
 import { IoIosNotifications } from "react-icons/io";
 import { FaBriefcase } from "react-icons/fa";
 import { MdSave } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export const FooterNav = () => {
   return (
     <nav className="navigation">
       <ul>
         <li>
-          <Anchor href={'#'} classes={'nav'}>
+          <Link to='/'>
             <AiFillHome />
-          </Anchor>
+          </Link>
         </li>
         <li>
-          <Anchor href={'#'} classes={'nav'}>
+          <Link to='/alerts'>
             <IoIosNotifications />
-          </Anchor>
+          </Link>
         </li>
         <li>
-          <Anchor href={'#'} classes={'nav'}>
+          <Link to='/jobs'>
             <FaBriefcase />
-          </Anchor>
+          </Link>
         </li>
         <li>
-          <Anchor href={'#'} classes={'nav'}>
+          <Link to='/saved'>
             <MdSave />
-          </Anchor>
+          </Link>
         </li>
       </ul>
     </nav>
