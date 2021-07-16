@@ -1,0 +1,21 @@
+.navigation {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: $secondary-color;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+
+    li {
+      list-style: none;
+      a {
+        color: $terciary-color;
+      }
+    }
+  }
+}
