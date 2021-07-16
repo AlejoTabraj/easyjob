@@ -1,0 +1,17 @@
+.header-description {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  article {
+    @include border-style;
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+    img {
+      position: absolute;
+      left: 50%;
+      top: -50%;
+      transform: translate(-50%, 80%);
+    }
+  }
+}
