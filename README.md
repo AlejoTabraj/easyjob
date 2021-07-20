@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Proyecto <Titulo de la página a definir>
+## Contexto
+La dispersión de avisos compartidos en grupos de discord y foros no es muy efectiva por el flujo continuo de información. esta página pretende ser un lugar para posteo de avisos
+de fácil consulta.
+## Descripción
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Debera ser de fácil acceso, y permitirá publicar avisos, pero por medida de seguridad 
+será implementado un formulario de registro para evitar spam ('buscar que esto no rompa la experiencia de usuario').
+
+## Requisitos funcionales
+
+- El usuario deberá poder publicar, guardar y compartir avisos.
+
+## Diseño del producto
+-El diseño se va creando en el transcurso y las imagenes se iran actualizando.
+
+<img align='center' src='https://i.ibb.co/pXxBnrd/home.png'>
+
+<img align='center' src='https://i.ibb.co/ns9GWbV/jdes.png'>
+
+
+<img align='center' src='https://i.ibb.co/9244F4c/nothing.png'>
+
+<img align='center' src='https://i.ibb.co/LPdgYZk/jobs.png'>
 
 ## Available Scripts
 
