@@ -4,5 +4,16 @@
 }
 
 a {
+    color: $terciary-color;
     text-decoration: none;
+    min-width: fit-content;
+}
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.wrapper {
+    margin-left: 4%;
 }

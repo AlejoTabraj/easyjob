@@ -20,10 +20,10 @@ export const JobDescriptionHeader = () => {
         />
         <Eichthree text={'Cuevana3'}/>
         <section className="tags-section">
-          <Text classes={"header_description__tag"} text={"remote"} />
-          <Text classes={"header_description__tag"} text={"remote"} />
-          <Text classes={"header_description__tag"} text={"remote"} />
-          <Text classes={"header_description__tag"} text={"remote"} />
+          <Text classes={"header_description__tag"} text={"- buenos aires"} />
+          <Text classes={"header_description__tag"} text={"- full-time"} />
+          <Text classes={"header_description__tag"} text={"- junior"} />
+          <Text classes={"header_description__tag"} text={"- javascript"} />
         </section>
       </article>
     </header>

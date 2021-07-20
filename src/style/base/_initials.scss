@@ -1,8 +1,10 @@
-$primary-color: hsl(48°, 66%, 52%);
-$secondary-color: hsl(0°,0%,100%);
-$terciary-color: hsl(300°, 11%, 15%);
+$primary-color:#fafafa;
+$secondary-color: #f8f9fa;
+$terciary-color: #161c2d;
 $resalt-color: hsl(335°, 54%, 43%);
 
 body{
     background-color: $primary-color;
+    font-family: Circular Std, serif;
+    padding-bottom: 5rem;
 }

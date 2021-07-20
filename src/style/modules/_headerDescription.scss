@@ -1,17 +1,29 @@
 .header-description {
   display: flex;
   justify-content: center;
-  padding: 2rem 0;
+  padding: 3rem 0;
   article {
     @include border-style;
     position: relative;
-    padding: 2rem;
+    padding: 2rem 1rem;
     text-align: center;
     img {
+      @include border-style;
+      box-shadow: none;
       position: absolute;
       left: 50%;
       top: -50%;
       transform: translate(-50%, 80%);
+    }
+    .tags-section {
+      padding-top: 0.5rem;
+      display: flex;
+      flex-flow: row wrap;
+      text-align: left;
+      margin-left: 2.5rem;
+      p {
+        flex-basis: 50%;
+      }
     }
   }
 }

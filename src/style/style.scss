@@ -1,8 +1,11 @@
-@import 'base/base';
+
+
+@import 'mixins/fonts';
+
 @import 'base/initials';
+@import 'base/base';
 
 //mixins
-@import 'mixins/fonts';
 @import 'mixins/elements';
 //theme
 @import 'theme/avatar';
@@ -19,3 +22,5 @@
 @import 'modules/footer';
 @import 'modules/headerDescription';
 @import 'modules/jobDescription';
+@import 'modules/headerJobs';
+@import 'modules/bodyJobs';
