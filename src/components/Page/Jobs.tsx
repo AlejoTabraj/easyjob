@@ -1,11 +1,20 @@
 import React from "react";
-import { JobDescriptionHeader } from "../Molecules/JobDescriptionHeader";
-import { JobDescription } from "../Molecules/JobDescription";
+import { Header } from "../Organisms/Header";
+import { EichTwo } from "../Atoms/EichTwo";
+import { JobCard } from "../Organisms/JobCard";
+
 export const Jobs = () => {
   return (
-    <div>
-      <JobDescriptionHeader />
-      <JobDescription />
-    </div>
+    <header className="header-jobs">
+      
+      <Header />
+      <section className="wrapper">
+        <EichTwo class={"subtitle"} text={"Jobs"} />
+        <JobCard />
+        <JobCard />
+        <JobCard />
+        <JobCard />
+      </section>
+    </header>
   );
 };

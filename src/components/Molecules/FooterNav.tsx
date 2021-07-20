@@ -1,8 +1,8 @@
 import React from "react";
-import { AiFillHome } from "react-icons/ai";
-import { IoIosNotifications } from "react-icons/io";
-import { FaBriefcase } from "react-icons/fa";
-import { MdSave } from "react-icons/md";
+import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineAlert } from "react-icons/ai";
+import { BiBriefcase } from "react-icons/bi";
+import { AiOutlineSave } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 export const FooterNav = () => {
@@ -11,22 +11,22 @@ export const FooterNav = () => {
       <ul>
         <li>
           <Link to='/'>
-            <AiFillHome />
+            <AiOutlineHome />
           </Link>
         </li>
         <li>
           <Link to='/alerts'>
-            <IoIosNotifications />
+            <AiOutlineAlert />
           </Link>
         </li>
         <li>
           <Link to='/jobs'>
-            <FaBriefcase />
+            <BiBriefcase />
           </Link>
         </li>
         <li>
           <Link to='/saved'>
-            <MdSave />
+            <AiOutlineSave />
           </Link>
         </li>
       </ul>

@@ -1,6 +1,11 @@
 $wigenda-pat: '../../fonts/Wigenda';
 
 @font-face {
+    src: url('../../fonts/CircularStd.otf');
+    font-family: 'Circular Std';
+    font-weight: 100;
+}
+@font-face {
     src: url($wigenda-pat + '.ttf') format("ttf");
     font-family: 'Wigenda';
     font-weight: 100;

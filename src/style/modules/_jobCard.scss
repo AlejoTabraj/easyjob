@@ -3,7 +3,11 @@
     display: flex;
     background-color: $secondary-color;
     min-width: fit-content;
-    padding: 1rem;
+    padding: .8rem;
+
+    &:hover {
+        box-shadow: 1px 1px 1px  $terciary-color
+    }
     
 }
 

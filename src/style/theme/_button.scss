@@ -1,6 +1,16 @@
-.btn-primary {
+.btn-primary1 {
     border: none;
     outline: none;
-    padding: .6rem;
-    border-radius: 50%;
+    padding: .3rem;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+}
+.btn-primary2 {
+    border: none;
+    outline: none;
+    padding: .3rem;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
 }
