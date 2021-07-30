@@ -11,6 +11,8 @@ export const RecentJobs = () => {
       <section className='recent-jobs__section'>
         <JobCard />
         <JobCard />
+        <JobCard />
+        <JobCard />
       </section>
     </section>
   );

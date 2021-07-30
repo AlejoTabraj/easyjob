@@ -13,6 +13,18 @@ export const JobsSection = () => {
         <JobCard />
         <JobCard />
         <JobCard />
+        <JobCard />
+        <JobCard />
+        <JobCard />
+        <JobCard />      
+         <JobCard />
+        <JobCard />
+        <JobCard />
+        <JobCard />      
+         <JobCard />
+        <JobCard />
+        <JobCard />
+        <JobCard />
       </section>
     </section>
   );

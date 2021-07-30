@@ -5,6 +5,12 @@
     flex-direction: column;
     justify-content: space-around;
     padding-left: 4%;
+    h2 {
+        margin: 1rem 0;
+    }
+    p, li {
+        max-width: 90%;
+    }
     ul li {
         margin-left: 4%;
         text-decoration: none solid rgba(22,28,45,0.7);

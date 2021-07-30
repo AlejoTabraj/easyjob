@@ -10,7 +10,10 @@ export const Header = () => {
         <Title />
         <PerfilAvatar />
       </div>
+      <div className='header__search'>
       <Search />
+        </div>
+      
     </header>
   );
 };

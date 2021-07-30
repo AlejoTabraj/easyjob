@@ -20,4 +20,13 @@
     article {
         margin-right: 1rem;
     }
+
+    @media (min-width: 500px){
+        overflow-x: unset;
+    }
+}
+
+.jobs__section {
+    display: flex;
+    flex-flow: wrap row;
 }

@@ -1,4 +1,4 @@
-import Main from './components/Templates/Main.d'
+import Main from './components/Templates/Main'
 import "./style/style.scss";
 
 function App() {

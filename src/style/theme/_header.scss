@@ -1,5 +1,11 @@
 .header {
     padding: 2rem 4%;
+    @media (min-width: 720px) {
+        
+       .header__search{ 
+            padding: 2rem 10% ;
+        }
+    }
 }
 .header__title {
  display: flex;
